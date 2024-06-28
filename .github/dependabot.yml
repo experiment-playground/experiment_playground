@@ -16,6 +16,16 @@ updates:
       - "security"
       - "dependencies"
     versioning-strategy: increase
+    groups:
+       # Specify a name for the group, which will be used in pull request titles
+       # and branch names
+      doc-dependencies:
+        applies-to: version-updates
+        patterns:
+          - "sphinx*"
+          - "docutils"
+          - "myst-parser"
+          - "pytz"
 
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
