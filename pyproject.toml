@@ -38,7 +38,7 @@ doc = [
 	"docutils ~= 0.19",
 	"furo >= 2024.1.29",
 	"myst-parser >= 2.0.0",
-	"pytz ~= 2023.3"
+	"pytz ~= 2024.1"
 ]
 test = [
 	"behave >= 1.2.6",
